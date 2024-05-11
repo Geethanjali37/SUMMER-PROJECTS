@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/img1.jpeg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    font-size: 16px; 
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #272343;
+    color: #ffffff;
+    padding: 80px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.hero {
+    color: #ffffff; 
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+.hero p {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #113f67; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #38598b;
+}
+.featured-products {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.featured-products .product {
+    width: calc(33% - 20px); 
+    padding: 20px;
+    background-color: #113f67; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px; 
+}
+.product{
+    display:inline-block;
+    max-width: 50%;
+}
+.featured-products .product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.featured-products .product:last-child {
+    margin-right: 0;
+}
+.about {
+    background-color: #113f67; 
+    color: #ffffff; 
+    padding: 50px 0;
+    text-align: center;
+}
+.customer-reviews {
+    padding: 50px 0;
+}
+.customer-reviews .review {
+    background-color: #113f67; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.customer-reviews .review blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #ffffff; 
+}
+.customer-reviews .review p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact {
+    color: #ffffff;
+    padding: 50px 0;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #113f67; 
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-info,.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+.contact-info {
+    background-color: #113f67; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+.contact-info ul {
+    padding: 0;
+    list-style-type: none;
+}
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+.contact-info ul li:last-child {
+    margin-bottom: 0;
+}
+.contact-info ul li strong {
+    display: inline-block;
+    width: 120px;
+    color: #ffffff;
+}
+.contact-form {
+    background-color: #113f67; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+textarea {
+    resize: vertical;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38598b; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; 
+}
+.btn:hover {
+    background-color: #113f67; 
+}
+footer {
+    background-color: #272343; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
